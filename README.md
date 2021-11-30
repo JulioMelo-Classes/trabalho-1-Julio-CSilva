@@ -23,3 +23,38 @@ Leia o documento de especificação contido em [Especificação do Trabalho 1](h
 
 ### - 2. Funcionalidade não implementada: por falta de tempo, e de certa forma conhecimento, não conseguimos implementar os níveis de dificuldade da forma correta, embora o código funcione de forma similar, os níveis de dificuldade ainda passarão por atualizações futuras, assim como outras funcionalidades do código que serão Refatorados, de forma a buscar o melhore desempenho possível.
 
+# Avaliação
+
+## Código | Funcionalidades
+1. Classe forca 10/10
+
+2. Interface textual 10/10
+
+3. Execução completa do jogo 8/15
+- Acho que a ideia do "array_palavras" é ok, o problema aqui foi que ficou muito dependente da quantidade de palavras
+- no arquivo de entrada. Assim vou penalizar pela implementação da dificuldade. Vcs poderiam ter usado o tamanho do array m_palavras nos cálculos ao invés de números fixos.
+
+4. Validação dos arquivos de texto 5/5
+
+5. Arquivos de teste de validação dos casos de erro 0/5
+- A ideia aqui era que vcs mandassem junto do projeto arquivos para mostrar os casos de erro que foram implementados.
+
+6. Arquivos de teste de validação dos níveis de dificuldade 1/5
+- Aqui a ideia era que vcs colocassem arquivos que mostrassem os níveis de dificuldade, especialmente para testar o caso
+de game over quadno o usuário acerta todas as palavras disponíveis naquele nível.
+
+7. Observações gerais
+- A forma como vcs usaram os includes resolve o problem mas não é a correta. O ideal era que vocês incluissem apenas "Forca.hpp" 
+e configurassem o compilador com o local onde buscar pelos arquivos. Isso é feito usando diretivas de compilador, mas ao invés
+de entrar nesses detalhes sugiro que tentem usar o cmake da proxima vez.
+
+## Código | Boas práticas
+
+1. Documentação do código e readme 10/10
+
+2. Organização e indentação 8/10
+- Vou penalizar pela forma como os includes foram feitos no código
+
+3. Compilação automatizada 0/5
+
+

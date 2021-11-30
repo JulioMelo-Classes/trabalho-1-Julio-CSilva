@@ -83,7 +83,7 @@ void layout_boneco(int fichas){
       cout << "/  " << endl;
       break;
     case 0:
-      cout << " ( ˘︹˘ ) " << endl;
+      cout << "  (x x) " << endl;
       cout << "   /|\\" << endl;
       cout << "   / \\" << endl;
       break;

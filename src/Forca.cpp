@@ -64,7 +64,7 @@ int Forca::leitura_scores(){
     return 0;
   } else {
     system("clear");
-    cout << "(👍≖‿‿≖)👍 Jogo Finalizado ☜(ˆ▿ˆ☜)" << endl;
+    cout << "(==) Jogo Finalizado (ˆ ˆ)" << endl;
     return 3;
   }
 
@@ -275,7 +275,7 @@ bool Forca::game_over(){
 
 void Forca::win(){
   cout << "Parabéns você acertou a palavra" << endl;
-  cout << "(^o^)~≪☆*CONGRATULATIONS*☆≫~(^o^)／" << endl;
+  cout << "(^o^)~<<CONGRATULATIONS>>~(^o^)/" << endl;
 }
 
 void Forca::alterar_scores(string nome_jogador){
